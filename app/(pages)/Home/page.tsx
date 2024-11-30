@@ -6,7 +6,7 @@ import ImageComponent from "../components/ImageComponent"
 export default function Home() {
   return (
     <>
-    <div className="flex justify-center items-center h-[80vh] gap-[5rem]">
+    <div id="home" className="flex justify-center items-center h-[80vh] gap-[5rem] ">
       <div className="rounded-full h-[400] w-[400] overflow-hidden">
       <ImageComponent 
         src="/Profile2.png" 

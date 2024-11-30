@@ -13,7 +13,7 @@ export default function Experience (){
     return (
         <>
         
-        <div className="h-[80vh]">
+        <div id="experience" className="h-[80vh] flex flex-col  justify-center">
         <div className="text-black text-[2.5rem] flex justify-center font-semibold mb-[40]">Experience</div>
         <div className="flex justify-center">
         <div className="text-black border-2 border-[#0000006c] rounded-xl px-20 flex flex-col w-[80%] py-[40]">
