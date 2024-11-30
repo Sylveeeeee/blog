@@ -15,7 +15,7 @@ export default function Home() {
         height={400} 
       /></div>
       <div className="flex flex-col items-center justify-center">
-        <a className="text-[1.5rem] text-[#00000080]">{" Hello ,I'm"}</a>
+        <a className="text-[1.5rem] text-[#00000080]">{" Hello ,I&aposm"}</a>
         <a className="text-[3rem] text-black font-semibold"> Mack JR </a>
         <div className="text-[#000000ad] text-[1.75rem] mb-[10]">UX/UI Design</div>
         <div className="flex text-black">
