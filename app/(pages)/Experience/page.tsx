@@ -14,10 +14,10 @@ export default function Experience (){
         <>
         
         <div id="experience" className="h-[80vh] flex flex-col  justify-center">
-        <div className="text-black text-[2.5rem] flex justify-center font-semibold mb-[40]">Experience</div>
+        <div className="text-black text-[2.5rem] flex justify-center font-semibold mb-[40px]">Experience</div>
         <div className="flex justify-center">
-        <div className="text-black border-2 border-[#0000006c] rounded-xl px-20 flex flex-col w-[80%] py-[40]">
-        <div className="flex justify-between mb-[50] ">
+        <div className="text-black border-2 border-[#0000006c] rounded-xl px-20 flex flex-col w-[80%] py-[40px]">
+        <div className="flex justify-between mb-[50px] ">
         <div className="flex items-center flex-col "><div className="text-[50px] mb-[10]"><IoLogoHtml5 /></div><h1>HTML</h1></div>
         <div className="flex items-center flex-col"><div className="text-[50px] mb-[10]"><IoLogoCss3 /></div><h1>CSS</h1></div>
         <div className="flex items-center flex-col"><div className="text-[50px] mb-[10]"><IoLogoJavascript /></div><h1>Javascript</h1></div>
