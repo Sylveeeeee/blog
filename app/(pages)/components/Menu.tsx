@@ -14,8 +14,7 @@ export default function Menu(){
             </button>
             <div className="flex list-none text-[1.5rem] gap-[2rem] ">
             <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'About'}>ssssAbout</Link>
-            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Experiennce'}>Experiennce</Link>
-            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Projects'}>Projects</Link>
+            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Experience'}>Experience</Link>
             <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Contact'}>Contact</Link>
             </div>
         </div>
