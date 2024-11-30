@@ -5,8 +5,8 @@ export default function About (){
     return (
         <>
          
-        <div id="about" className="h-[80vh] flex flex-col  justify-center  ">
-            <div className="text-black text-[2.5rem] flex justify-center font-semibold ">About Me</div>
+        <div id="about" className="h-[80vh] flex flex-col  justify-center">
+            <div className="text-black text-[2.5rem] flex justify-center font-semibold  mb-[40]">About Me</div>
             <div className="flex justify-center items-center  gap-[5rem]">
       <div className="rounded-[20px] h-[300] w-[300] overflow-hidden">
       <ImageComponent 
