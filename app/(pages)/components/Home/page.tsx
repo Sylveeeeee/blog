@@ -1,6 +1,6 @@
 import { IoLogoGithub } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
-import ImageComponent from "../components/ImageComponent"
+import ImageComponent from "../ImageComponent"
 
 
 export default function Home() {

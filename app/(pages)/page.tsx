@@ -1,7 +1,7 @@
-import About from "./About/page";
-import Experience from "./Experience/page";
-import Contact from "./Contact/page";
-import Home from "./Home/page";
+import About from "./components/About/page";
+import Experience from "./components/Experience/page";
+import Contact from "./components/Contact/page";
+import Home from "./components/Home/page";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 
 export default function page() {
