@@ -29,7 +29,7 @@ export default function About (){
         <a className="text-[1rem] text-[#000000] flex items-center "> Software Engineering </a>
         </div>
       </div>
-        <div className="flex flex-wrap w-[700px] text-black mt-[20px]">Lorem ipsum dolor sit amet consectetur  ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus dolor repellendus dolorum voluptatum! Harum facilis ipsam consequatur quisquam aut quos quis nihil eveniet laborum! Obcaecati porro odit unde id.</div>
+        <div className="flex flex-wrap w-[700px] text-black mt-[20px]">I am a passionate UX/UI designer with a creative mindset and a strong focus on user-centered design. With experience in designing websites and interfaces using tools like Figma, I enjoy crafting visually appealing and functional designs that enhance user experiences. I am a team player, open to feedback, and dedicated to delivering high-quality work that meets both user and business needs.</div>
       </div>
         </div>
         </div>
