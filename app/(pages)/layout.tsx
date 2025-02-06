@@ -7,7 +7,7 @@ export default function WebsiteLayout({ children }: { children: React.ReactNode 
     <>
       
       <div className="w-full h-[17vh] bg-white flex items-center justify-around px-6 text-black font-Roboto ">
-        <div className="text-[40px] font-semibold">Mack JR</div>
+        <div className="text-[40px] font-semibold">66022477 Jirawat</div>
         <div className=" flex list-none text-[1.5rem] gap-[2rem]">
           <Link
             href="#home"

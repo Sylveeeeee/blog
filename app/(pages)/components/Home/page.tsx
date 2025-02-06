@@ -9,7 +9,7 @@ export default function Home() {
     <div id="home" className="flex justify-center items-center h-[80vh] gap-[5rem] ">
       <div className="rounded-full h-[400] w-[400] overflow-hidden flex justify-center ">
       <ImageComponent 
-        src="/ddd.jpg" 
+        src="/Profile2.jpg" 
         alt="Profile" 
         width={400} 
         height={600} 
