@@ -16,8 +16,8 @@ export default function Home() {
       /></div>
       <div className="flex flex-col items-center justify-center">
         <p className="text-[1.5rem] text-[#00000080]">{` Hello ,I'm`}</p>
-        <a className="text-[3rem] text-black font-semibold"> 66022477 jirawat </a>
-        <div className="text-[#000000ad] text-[1.75rem] mb-[10px]">UX/UI Design</div>
+        <a className="text-[3rem] text-black font-semibold"> 66022477  </a>
+        <div className="text-[#000000ad] text-[1.75rem] mb-[10px]">UX/UI Design 66022477</div>
         <div className="flex text-black">
         <button className="text-[2rem] mr-[10px]">
         <a href="https://github.com/Sylveeeeee ">< IoLogoGithub /></a>
