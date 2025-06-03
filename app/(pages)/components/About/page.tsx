@@ -5,7 +5,7 @@ export default function About (){
     return (
         <>
          
-        <div id="about" className="h-[80vh] flex flex-col  justify-center">
+        <div id="about" className="h-[80vh] gap-[5rem] flex flex-col  justify-center">
             <div className="text-black text-[2.5rem] flex justify-center font-semibold  mb-[40]">About Me</div>
             <div className="flex justify-center items-center  gap-[5rem]">
       <div className="rounded-[20px] h-[300px] w-[300px] overflow-hidden">
@@ -29,7 +29,11 @@ export default function About (){
         <a className="text-[1rem] text-[#000000] flex items-center "> Software Engineering </a>
         </div>
       </div>
-        <div className="flex flex-wrap w-[700px] text-black mt-[20px]">I am a passionate UX/UI designer with a creative mindset and a strong focus on user-centered design. With experience in designing websites and interfaces using tools like Figma, I enjoy crafting visually appealing and functional designs that enhance user experiences. I am a team player, open to feedback, and dedicated to delivering high-quality work that meets both user and business needs.</div>
+        <div className="flex flex-wrap w-[700px] text-black mt-[20px]">Hello! I&apos;m Mack Jirawat, a student passionate about Front-End Development.
+
+I enjoy building responsive and user-friendly websites using tools like React, Tailwind CSS, and JavaScript. I also have experience working with REST APIs and integrating them into real projects.
+
+I value clean UI, attention to detail, and am always eager to learn more through hands-on experience and teamwork.</div>
       </div>
         </div>
         </div>

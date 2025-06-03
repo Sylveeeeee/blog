@@ -13,7 +13,8 @@ export default function Menu(){
                 <span></span>
             </button>
             <div className="flex list-none text-[1.5rem] gap-[2rem] ">
-            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'About'}>ssssAbout</Link>
+            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'About'}>About</Link>
+            <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Projects'}>Project</Link>
             <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Experience'}>Experience</Link>
             <Link className="hover:underline hover:underline-offset-8 hover:decoration-4 hover:decoration-black " href={'Contact'}>Contact</Link>
             </div>

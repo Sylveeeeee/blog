@@ -4,7 +4,7 @@ export default function Contact() {
     return (
       <>
        
-      <div id="contact" className="h-[80vh] flex flex-col  justify-center">
+      <div id="contact" className="h-[80vh] gap-[5rem] flex flex-col  justify-center">
       <div className="text-black text-[2.5rem] flex justify-center font-semibold mb-[40px]">Contact Me</div>
       <div className="flex justify-center">
       <div className="flex justify-center items-center border-2 border-[#0000006c] rounded-2xl w-[400px] py-[20px]">
