@@ -1,33 +1,52 @@
 import { IoLogoGithub } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
-import ImageComponent from "../ImageComponent"
-
+import ImageComponent from "../ImageComponent";
 
 export default function Home() {
   return (
-    <>
-    <div id="home" className="flex justify-center items-center h-[80vh] gap-[5rem] ">
-      <div className="rounded-full h-[400] w-[400] overflow-hidden flex justify-center ">
-      <ImageComponent 
-        src="/Profile2.jpg" 
-        alt="Profile" 
-        width={400} 
-        height={600} 
-      /></div>
-      <div className="flex flex-col items-center justify-center">
-        <p className="text-[1.5rem] text-[#00000080]">{` Hello ,I'm`}</p>
-        <a className="text-[3rem] text-black font-semibold"> Jirawat Tangdan  </a>
-        <div className="text-[#000000ad] text-[1.75rem] mb-[10px]">Fron-end Developer</div>
-        <div className="flex text-black">
-        <button className="text-[2rem] mr-[10px]">
-        <a href="https://github.com/Sylveeeeee ">< IoLogoGithub /></a>
-          </button>
-          <button className="text-[2rem] ">
-          <a href="https://www.instagram.com/macklaren_/profilecard/?igsh=MW5kdXlucGRoanoxYg=="><FaInstagram /></a>
-          </button>
+    <div
+      id="home"
+      className="flex flex-col md:flex-row justify-center items-center h-auto md:h-[80vh] gap-8 md:gap-[5rem] px-4 py-8"
+    >
+      <div className="flex flex-col md:flex-row justify-center items-center w-full gap-8 md:gap-[5rem]">
+        <div className="rounded-full h-56 w-56 sm:h-64 sm:w-64 md:h-[400px] md:w-[400px] overflow-hidden flex justify-center items-center mb-6 md:mb-0">
+          <ImageComponent
+            src="/Profile.jpg"
+            alt="Profile"
+            width={400}
+            height={400}
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center text-center">
+          <p className="text-2xl sm:text-3xl md:text-[1.5rem] md:py-4 text-[#00000080]">
+            {`Hello, I'm`}
+          </p>
+          <span className="text-3xl sm:text-4xl md:text-[3rem] md:pt-4 text-black font-semibold">
+            Jirawat Tangdan
+          </span>
+          <div className="text-[#000000ad] text-xl sm:text-2xl md:text-[1.75rem] md:py-4 mb-2 md:mb-[10px]">
+            Front-end Developer
+          </div>
+          <div className="flex text-black mt-2">
+            <a
+              href="https://github.com/Sylveeeeee"
+              className="text-3xl sm:text-4xl md:text-[2rem] mr-4 hover:text-gray-700 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLogoGithub />
+            </a>
+            <a
+              href="https://www.instagram.com/macklaren_/profilecard/?igsh=MW5kdXlucGRoanoxYg=="
+              className="text-3xl sm:text-4xl md:text-[2rem] hover:text-pink-600 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    </>
   );
 }

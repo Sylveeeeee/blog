@@ -1,17 +1,15 @@
-"use client"; // ระบุว่าเป็น Client Component
+"use client";
 import { FaAngleUp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
 export default function ScrollToTopButton() {
-  const [isBottom, setIsBottom] = useState(false); 
-  const checkScrollPosition = () => {
-    const scrollPosition = window.scrollY + window.innerHeight;
-    const documentHeight = document.documentElement.scrollHeight;
+  const [isVisible, setIsVisible] = useState(false);
 
-    if (scrollPosition >= documentHeight - 1) {
-      setIsBottom(true); 
+  const checkScrollPosition = () => {
+    if (window.scrollY > 200) {
+      setIsVisible(true);
     } else {
-      setIsBottom(false);
+      setIsVisible(false);
     }
   };
 
@@ -22,17 +20,18 @@ export default function ScrollToTopButton() {
     };
   }, []);
 
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <div>
-      {isBottom && (
+      {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10  bg-black  p-3 rounded-full shadow-lg hover:bg-[#000000dc] ">
+          className="fixed bottom-10 right-10 bg-black p-3 rounded-full shadow-lg hover:bg-[#000000dc] text-white text-xl"
+          aria-label="Scroll to top"
+        >
           <FaAngleUp />
         </button>
       )}

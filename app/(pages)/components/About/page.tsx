@@ -1,43 +1,53 @@
-import ImageComponent from "../ImageComponent"
+import ImageComponent from "../ImageComponent";
 
-
-export default function About (){
-    return (
-        <>
-         
-        <div id="about" className="h-[80vh] gap-[5rem] flex flex-col  justify-center">
-            <div className="text-black text-[2.5rem] flex justify-center font-semibold  mb-[40]">About Me</div>
-            <div className="flex justify-center items-center  gap-[5rem]">
-      <div className="rounded-[20px] h-[300px] w-[300px] overflow-hidden">
-      <ImageComponent 
-        src="/Profile2.png" 
-        alt="Profile" 
-        width={300} 
-        height={300} 
-      /></div>
-      <div className="flex flex-col ">
-      <div className="flex ">
-      <div className="flex flex-col justify-center mr-[40px] border-2 border-[#0000006c] rounded-3xl p-8 w-[350px] ">
-        <a className="text-[1rem] text-[#000000] flex "> <h1 className="text-black font-semibold mr-[5] "> Name :</h1> Jirawat Tangdan </a>
-        <a className="text-[1rem] text-[#000000] flex "> <h1 className="text-black font-semibold mr-[5]"> Gender :</h1> Male </a>
-        <a className="text-[1rem] text-[#000000] flex "> <h1 className="text-black font-semibold mr-[5]"> Interests :</h1> Fitness ,Gaming </a>
-        <a className="text-[1rem] text-[#000000] flex "> <h1 className="text-black font-semibold mr-[5]"> Personality :</h1> creative ,optimistic </a>
+export default function About() {
+  return (
+    <div
+      id="about"
+      className="min-h-[80vh] flex flex-col justify-center items-center px-4 py-8 text-black"
+    >
+      <div className="text-3xl md:text-4xl font-semibold mb-8 text-center">
+        About Me
+      </div>
+      <div className="flex flex-col md:flex-row items-center gap-8 w-full max-w-5xl">
+        {/* ซ่อนรูปบนจอเล็ก */}
+        <div className="hidden lg:flex rounded-2xl overflow-hidden flex-shrink-0 h-40 w-40 md:h-60 md:w-60 lg:h-72 lg:w-72">
+          <ImageComponent
+            src="/Profile11.jpg"
+            alt="Profile"
+            width={300}
+            height={300}
+          />
         </div>
-        <div className="flex flex-col items-center justify-center border-2 border-[#0000006c] rounded-3xl p-8 w-[350px]">   
-        <a className="text-[1rem] text-[#000000] flex mb-[10px]"> <h1 className="text-black font-semibold mr-[5px] text-[20px]"> Education </h1> </a>
-        <a className="text-[1rem] text-[#000000] flex items-center "> University of Phayao </a>
-        <a className="text-[1rem] text-[#000000] flex items-center "> Software Engineering </a>
+        <div className="flex  md:items-center flex-col gap-4 w-full">
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="border-2 border-black/40 rounded-3xl p-6 w-full md:w-80">
+              <div className="text-base flex mb-2">
+                <span className="font-semibold mr-2">Name:</span> Jirawat Tangdan
+              </div>
+              <div className="text-base flex mb-2">
+                <span className="font-semibold mr-2">Gender:</span> Male
+              </div>
+              <div className="text-base flex mb-2">
+                <span className="font-semibold mr-2">Interests:</span> Fitness, Gaming
+              </div>
+              <div className="text-base flex">
+                <span className="font-semibold mr-2">Personality:</span> Creative, optimistic
+              </div>
+            </div>
+            <div className="border-2 border-black/40 rounded-3xl p-6 w-full md:w-80 flex flex-col items-center">
+              <div className="font-semibold text-lg mb-2">Education</div>
+              <div className="text-base">University of Phayao</div>
+              <div className="text-base">Software Engineering</div>
+            </div>
+          </div>
+          <div className="mt-4  items-center text-base md:text-lg">
+            Hello! I&apos;m Mack Jirawat, a student passionate about Front-End Development.<br />
+            I enjoy building responsive and user-friendly websites using tools like React, Tailwind CSS, and JavaScript. I also have experience working with REST APIs and integrating them into real projects.<br />
+            I value clean UI, attention to detail, and am always eager to learn more through hands-on experience and teamwork.
+          </div>
         </div>
       </div>
-        <div className="flex flex-wrap w-[700px] text-black mt-[20px]">Hello! I&apos;m Mack Jirawat, a student passionate about Front-End Development.
-
-I enjoy building responsive and user-friendly websites using tools like React, Tailwind CSS, and JavaScript. I also have experience working with REST APIs and integrating them into real projects.
-
-I value clean UI, attention to detail, and am always eager to learn more through hands-on experience and teamwork.</div>
-      </div>
-        </div>
-        </div>
-      
-        </>
-    )
+    </div>
+  );
 }

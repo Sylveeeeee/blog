@@ -1,20 +1,27 @@
 import { IoMail } from "react-icons/io5";
 
 export default function Contact() {
-    return (
-      <>
-       
-      <div id="contact" className="h-[80vh] gap-[5rem] flex flex-col  justify-center">
-      <div className="text-black text-[2.5rem] flex justify-center font-semibold mb-[40px]">Contact Me</div>
-      <div className="flex justify-center">
-      <div className="flex justify-center items-center border-2 border-[#0000006c] rounded-2xl w-[400px] py-[20px]">
-      <div className=" text-black text-[50px] mr-[10px]">
-        <IoMail /></div>
-      <a className="hover:text-black text-[20px] hover:underline hover:underline-offset-[6px] underline underline-offset-[6px] text-[#0000007c]" href="mailto:maccklaren@gmail.com">maccklaren@gmail.com </a>
+  return (
+    <div
+      id="contact"
+      className="min-h-[60vh] flex flex-col justify-center items-center px-4 py-8"
+    >
+      <div className="text-black text-3xl md:text-[2.5rem] font-semibold mb-8 text-center">
+        Contact Me
       </div>
+      <div className="flex  justify-center  w-full">
+        <div className="flex items-center justify-center border-2 border-black/40 rounded-2xl bg-white w-full max-w-md py-6 px-4">
+          <span className="text-black text-3xl md:text-[50px] mr-4">
+            <IoMail />
+          </span>
+          <a
+            className="text-lg  md:text-[20px] hover:text-black hover:underline underline underline-offset-4 text-black/60 break-all"
+            href="mailto:maccklaren@gmail.com"
+          >
+            maccklaren@gmail.com
+          </a>
+        </div>
       </div>
-      </div>
-      </>
-    );
-  }
-  
+    </div>
+  );
+}
