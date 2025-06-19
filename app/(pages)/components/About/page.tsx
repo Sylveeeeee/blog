@@ -41,9 +41,9 @@ export default function About() {
               <div className="text-base">Software Engineering</div>
             </div>
           </div>
-          <div className="mt-4  items-center text-base md:text-lg">
-            Hello! I&apos;m Mack Jirawat, a student passionate about Front-End Development.<br />
-            I enjoy building responsive and user-friendly websites using tools like React, Tailwind CSS, and JavaScript. I also have experience working with REST APIs and integrating them into real projects.<br />
+          <div className="mt-4 text-justify items-center text-base md:text-lg ">
+            Hello! I&apos;m Mack Jirawat, a student passionate about Front-End Development. 
+            I enjoy building responsive and user-friendly websites using tools like React, Tailwind CSS, and JavaScript. I also have experience working with REST APIs and integrating them into real projects.
             I value clean UI, attention to detail, and am always eager to learn more through hands-on experience and teamwork.
           </div>
         </div>
