@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row justify-center items-center w-full gap-8 md:gap-[5rem]">
         <div className="rounded-full h-56 w-56 sm:h-64 sm:w-64 md:h-[400px] md:w-[400px] overflow-hidden flex justify-center items-center mb-6 md:mb-0">
           <ImageComponent
-            src="/Profile.jpg"
+            src="/profile.jpg"
             alt="Profile"
             width={400}
             height={400}

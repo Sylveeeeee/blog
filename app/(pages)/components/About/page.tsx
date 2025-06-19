@@ -13,7 +13,7 @@ export default function About() {
         {/* ซ่อนรูปบนจอเล็ก */}
         <div className="hidden lg:flex rounded-2xl overflow-hidden flex-shrink-0 h-40 w-40 md:h-60 md:w-60 lg:h-72 lg:w-72">
           <ImageComponent
-            src="/Profile11.jpg"
+            src="/profile11.jpg"
             alt="Profile"
             width={300}
             height={300}
