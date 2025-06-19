@@ -1,6 +1,6 @@
 import ImageComponent from "next/image"
 
-export function Project() {
+export function Projects() {
   return (
     <>
       <div id="Projects" className="h-[80vh] flex flex-col justify-center gap-[5rem] items-center">
