@@ -15,7 +15,7 @@ export default function Contact() {
             <IoMail />
           </span>
           <a
-            className="text-lg  md:text-[20px] hover:text-black hover:underline underline underline-offset-4 text-black/60 break-all"
+            className="text-lg  md:text-[20px] hover:text-black hover:underline underline underline-offset-4 text-black/50 break-all"
             href="mailto:maccklaren@gmail.com"
           >
             maccklaren@gmail.com
